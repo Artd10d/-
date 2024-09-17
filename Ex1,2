@@ -12,8 +12,15 @@ print (integer_var, float_var, string_var, list_var, tuple_var, dict_var, set_va
 name = "Pat"
 age = 210
 average_grade = 4,21
-favorite_movies = [Gran_Turismo, Hatiko, Initial_D]
-personal_info = 
-skills = 
-visited_countries = {Russia, Sweden}
+favorite_movies = ["Gran_Turismo", "Hatiko", "Initial_D"]
+personal_info ={"Second_Name": "Parshin","School_number": "556", "Average_grade": "4,21" }
+skills = ("Good_Stamina", "Programming", "Gaming")
+visited_countries = {"Russia", "Sweden", "Finland"}
 has_driver_license = False
+print (name, age, average_grade, favorite_movies, personal_info, skills, visited_countries, has_driver_license)
+#ex3
+cpu = ("Intel_Core_i7-12700KF")
+ram = ("32GB")
+enthernet = ("85Mpbs")
+all = [cpu, ram, enthernet]
+print (all)
