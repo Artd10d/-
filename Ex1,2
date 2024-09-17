@@ -1,6 +1,6 @@
 #ex1
 integer_var = 120
-float_var = 36,5
+float_var = 36.5
 string_var = "app1e"
 list_var = [10,13,20]
 tuple_var = ('120','50','200')
