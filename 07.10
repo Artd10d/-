@@ -1,0 +1,44 @@
+#1
+print("Сколько вам лет?\n1 - меньше 18\n2 - 18-65\n3 - Больше 65")
+age = input("Сколько вам лет:")
+if age == "1":
+    print("Вы несовершеннолетний")
+elif age == "2":
+    print("Вы совершеннолетний")
+elif age == "3":
+    print("Вы пенсионер")
+else:
+    print("Неверный выбор.")
+#2
+price = int(input("Какая ваша цена покупки?"))
+if price < 1000:
+    print("Покупка без скидки")
+elif price > 1000 and price < 5000:
+    print("Скидка 5%")
+elif price > 5000:
+    print("Скидка 10%")
+else:
+    print("Чего ты ожидал?")
+#3
+print("Введите два числа и знак")
+a, b = int(input()), int(input())
+s = input()
+if s == '+':
+    print(a + b)
+elif s == '-':
+    print(a - b)
+elif s == '*':
+    print(a * b)
+elif s == '/':
+ if b == 0:
+     print("На ноль не делим")
+ else:
+     print(a / b)
+else:
+    print("Неверная операция")
+#4
+num = int(input("Введите число:"))
+if num % 2 and num == 6:
+    print("True")
+else:
+    print("False")
