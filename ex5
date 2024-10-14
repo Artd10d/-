@@ -42,3 +42,11 @@ if num % 2 and num == 6:
     print("True")
 else:
     print("False")
+#5
+password = "passwd123"
+print("Введите пароль:")
+password = input()
+if password == "passwd123":
+    print("Доступ разрешен.")
+else:
+    print("Неверный пароль.")
