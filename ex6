@@ -28,3 +28,15 @@ for i, task in enumerate(tasks, 1):
     else:
         print(f"{i}:{task}")
 #ex6
+answer = 0
+i = int(input('Введите количество чисел:'))
+for num in range(i):
+    print('Введите сами числа:')
+    x = int(input())
+    answer = answer + x
+print('Сумма чисел = ', answer)
+#ex7
+i = 1
+while i < 11:
+    print('Цикл сработал ', i, 'раз.')
+    i += 1
