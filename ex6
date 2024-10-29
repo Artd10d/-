@@ -14,3 +14,17 @@ for i in stations:
     else:
         print(f"Поезд на стации: {i}")
 #ex4
+shop = ["Laptop", "Smartphone", "Watch", "Tablet", "Headphones"]
+for i in shop:
+    if i == shop [0]:
+        print("I'm buying this.")
+    else:
+        print("I don't need it.")
+#ex5
+tasks = ["Сдать проект (Важная)", "Сходить в магазин", "Позвонить врачу (Важная)", "Убраться в комнате", "Подготовить отчёт"]
+for i, task in enumerate(tasks, 1):
+    if "Важная" in task:
+        print(f"{i}!:{task}")
+    else:
+        print(f"{i}:{task}")
+#ex6
