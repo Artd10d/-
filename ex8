@@ -1,0 +1,12 @@
+#ex1
+import math
+kor = float(input("Введите число из которого нужно извлечь квадратный корень:"))
+sin = float(input("Введите число из которого нужно извлечь синус:"))
+cos = float(input("Введите число из которого нужно извлечь косинус:"))
+fac = int(input("Введите число из которого нужно извлечь факториал:"))
+
+result1 = math.sqrt(kor)
+result2 = math.sin(sin)
+result3 = math.cos(cos)
+result4 = math.factorial(fac)
+print(result1, result2, result3, result4)
